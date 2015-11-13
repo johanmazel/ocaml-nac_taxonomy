@@ -11,7 +11,15 @@ Library nac_taxonomy
   Path:          lib/
   Findlibname:   nac_taxonomy
   BuildTools:    ocamlbuild,menhir
-  Modules:       Anomaly_signature,
+  Modules:       
+                 Event_type,
+                 Boolean_operator,
+                 Rule,
+                 Parser_instantiations,
+                 Network_attribute_signature_comparator,
+                 Attribute_arithmetic_expression_rule,
+                 Anomaly_signature_type,
+                 Anomaly_signature,
                  Anomaly_taxonomy,
                  Anomaly_signature_matching_mode,
                  Anomaly_taxonomy_manager,
