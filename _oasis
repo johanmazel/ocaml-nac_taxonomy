@@ -14,7 +14,8 @@ Library nac_taxonomy
   Modules:       Anomaly_signature,
                  Anomaly_taxonomy,
                  Anomaly_signature_matching_mode,
-                 Anomaly_taxonomy_manager
+                 Anomaly_taxonomy_manager,
+                 Taxonomy_verifier
   BuildDepends:  
                  threads,
                  jl,
