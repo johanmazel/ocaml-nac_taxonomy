@@ -1,7 +1,7 @@
 OASISFormat: 0.3
 Name:        nac_taxonomy
 Version:     0.1
-Synopsis:    A bunch of module.
+Synopsis:    Taxonomy for network anomaly taxonomy classification.
 Authors:     Johan Mazel
 License:     GPL-3
 Plugins:     META (0.3), StdFiles (0.3)
