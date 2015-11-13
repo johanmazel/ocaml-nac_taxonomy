@@ -13,6 +13,7 @@ Library nac_taxonomy
   BuildTools:    ocamlbuild,menhir
   Modules:       Anomaly_signature,
                  Anomaly_taxonomy,
+                 Anomaly_signature_matching_mode,
                  Anomaly_taxonomy_manager
   BuildDepends:  
                  threads,
