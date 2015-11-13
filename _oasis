@@ -1,0 +1,27 @@
+OASISFormat: 0.3
+Name:        nac_taxonomy
+Version:     0.1
+Synopsis:    A bunch of module.
+Authors:     Johan Mazel
+License:     GPL-3
+Plugins:     META (0.3), StdFiles (0.3)
+BuildTools:  ocamlbuild
+
+Library nac_taxonomy
+  Path:          lib/
+  Findlibname:   nac_taxonomy
+  BuildTools:    ocamlbuild,menhir
+  Modules:       Anomaly_signature,
+                 Anomaly_taxonomy
+  BuildDepends:  
+                 threads,
+                 jl,
+
+                 netralys_attribute_value,
+
+                 comparelib,
+                 comparelib.syntax,
+                 sexplib,
+                 sexplib.syntax,
+                 bin_prot,
+                 bin_prot.syntax
