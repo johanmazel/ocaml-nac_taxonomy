@@ -16,3 +16,7 @@ install: [
   ["ocaml" "setup.ml" "-install"]
 ]
 remove: [["ocamlfind" "remove" "nac_taxonomy"]]
+depends: [
+  "jl"
+  "netralys_attribute_value"
+]
