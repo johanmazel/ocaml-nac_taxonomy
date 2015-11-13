@@ -12,7 +12,8 @@ Library nac_taxonomy
   Findlibname:   nac_taxonomy
   BuildTools:    ocamlbuild,menhir
   Modules:       Anomaly_signature,
-                 Anomaly_taxonomy
+                 Anomaly_taxonomy,
+                 Anomaly_taxonomy_manager
   BuildDepends:  
                  threads,
                  jl,
