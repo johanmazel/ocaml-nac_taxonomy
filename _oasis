@@ -21,7 +21,10 @@ Library nac_taxonomy
                  Feature_arithmetic_expression,
                  Attribute_arithmetic_expression_rule,
                  Attribute_rule,
+
+                 Value_comparison_criteria,
                  Value_rule,
+
                  Rule,
                  Parser_instantiations,
                  Network_attribute_signature_comparator,
