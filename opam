@@ -19,6 +19,7 @@ remove: [["ocamlfind" "remove" "nac_taxonomy"]]
 depends: [
   "ocamlfind"
   "oasis"
+  "menhir"
 
   "ocaml-jl"
   "ocaml-netralys"
