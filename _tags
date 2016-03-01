@@ -1,7 +1,7 @@
 true: use_menhir
 
 # OASIS_START
-# DO NOT EDIT (digest: 55a5013c5ece99adb856bd9f6a8fc491)
+# DO NOT EDIT (digest: 259b4d9a5b33e815175b3798eb931c97)
 # Ignore VCS directories, you can use the same kind of rule outside
 # OASIS_START/STOP if you want to exclude directories that contains
 # useless stuff for the build process
@@ -19,12 +19,12 @@ true: annot, bin_annot
 # Library nac_taxonomy
 "lib/nac_taxonomy.cmxs": use_nac_taxonomy
 <lib/*.ml{,i,y}>: pkg_bin_prot
-<lib/*.ml{,i,y}>: pkg_bin_prot.syntax
 <lib/*.ml{,i,y}>: pkg_comparelib
 <lib/*.ml{,i,y}>: pkg_comparelib.syntax
 <lib/*.ml{,i,y}>: pkg_jl
 <lib/*.ml{,i,y}>: pkg_netralys_attribute_value
+<lib/*.ml{,i,y}>: pkg_pa_bin_prot
+<lib/*.ml{,i,y}>: pkg_pa_sexp_conv
 <lib/*.ml{,i,y}>: pkg_sexplib
-<lib/*.ml{,i,y}>: pkg_sexplib.syntax
 <lib/*.ml{,i,y}>: pkg_threads
 # OASIS_STOP

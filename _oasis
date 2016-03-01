@@ -49,7 +49,9 @@ Library nac_taxonomy
 
                  comparelib,
                  comparelib.syntax,
+                 pa_sexp_conv,
+                 pa_bin_prot,
                  sexplib,
-                 sexplib.syntax,
-                 bin_prot,
-                 bin_prot.syntax
+#                 sexplib.syntax,
+                 bin_prot
+#                 bin_prot.syntax
