@@ -24,7 +24,7 @@ type t =
     attribute_comparison_criteria : Attribute_comparison_criteria.t;
     threshold : float;
   }
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let new_t
     feature_arithmetic_expression

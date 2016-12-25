@@ -28,7 +28,7 @@ type t =
     boolean_operator_rule_tree : (Boolean_operator.t , Rule.t) Tree.t;
     (* boolean_operator_rule_tree : (Boolean_operator.t , Rule.t) Ptree.t; *)
   }
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let new_t
     indice

@@ -6,7 +6,7 @@ type t =
 | Attribute of Attribute_rule.t
 | Attribute_arithmetic_expression of Attribute_arithmetic_expression_rule.t
 | Value of int Value_rule.t
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let to_string t =
   match t with

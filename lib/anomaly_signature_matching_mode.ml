@@ -7,7 +7,7 @@ type t =
 | Dst
 | Src_aggr
 | Dst_aggr
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let of_string string =
   match string with

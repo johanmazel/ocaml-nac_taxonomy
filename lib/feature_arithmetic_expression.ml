@@ -2,7 +2,7 @@
 open Bin_prot.Std
 
 type t = (Arithmetic_operator.t, Feature.t) Binary_tree.t
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let to_string t =
   Binary_tree.to_string

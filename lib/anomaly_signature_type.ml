@@ -5,7 +5,7 @@ type t =
 | Category
 | Standard
 | Default
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let of_string string =
   match string with

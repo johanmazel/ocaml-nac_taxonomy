@@ -47,7 +47,6 @@ Library nac_taxonomy
 
                  netralys_attribute_value,
 
-                 comparelib,
-                 comparelib.syntax,
-                 pa_sexp_conv,
-                 pa_bin_prot
+                 ppx_compare,
+                 ppx_sexp_conv,
+                 ppx_bin_prot

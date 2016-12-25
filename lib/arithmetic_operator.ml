@@ -6,7 +6,7 @@ type t =
 | Minus
 | Time
 | Divide
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let of_string
     string

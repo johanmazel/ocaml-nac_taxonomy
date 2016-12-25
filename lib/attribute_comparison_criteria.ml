@@ -6,7 +6,7 @@ type t =
 | Greater_or_equal
 | Lower
 | Lower_or_equal
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let of_string
     string

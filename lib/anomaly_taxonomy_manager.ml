@@ -25,10 +25,10 @@ type node_data =
    * int 
    * Anomaly_signature_matching_mode.t
    * Anomaly_signature.t)
-with compare
+[@@deriving compare]
 
 type node_path = node_data list
-with compare
+[@@deriving compare]
 
 (* TODO: add path/level/matching mode string map *)
 type t =

@@ -21,7 +21,7 @@ type 'a t =
     value_comparison_criteria : Value_comparison_criteria.t;
     value_variant : Value_variant.t;
   }
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let new_t
     feature

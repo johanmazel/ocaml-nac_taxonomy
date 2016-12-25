@@ -34,10 +34,10 @@ type node_data =
    * int 
    * Anomaly_signature_matching_mode.t
    * Anomaly_signature.t)
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 type node_path = node_data list
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 (* TODO: add path/level/matching mode string map *)
 type t =
@@ -53,7 +53,7 @@ type t =
     paths : node_path list;
     path_hashtable : (Anomaly_signature.t, node_path) Hashtbl.t;
   }
-with sexp
+[@@deriving sexp]
 
 let new_t
     anomaly_signature_ptree

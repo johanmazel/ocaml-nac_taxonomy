@@ -2,7 +2,7 @@
 type t =
 | AND
 | OR
-with compare, sexp, bin_io
+[@@deriving compare, sexp, bin_io]
 
 let apply t bool_1 bool_2 =
   match t with
